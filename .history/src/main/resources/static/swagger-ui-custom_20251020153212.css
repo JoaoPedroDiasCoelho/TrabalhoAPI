@@ -1,0 +1,8 @@
+.opblock-control-box .opblock-control-box-control button.btn.execute {
+    background-color: #004d99;
+    color: white;
+}
+.swagger-ui .topbar {
+    background-color: #f0f0f0; /* Cinza claro */
+    border-bottom: 3px solid #004d99;
+}
