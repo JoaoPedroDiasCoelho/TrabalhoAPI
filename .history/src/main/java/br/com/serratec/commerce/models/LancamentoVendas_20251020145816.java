@@ -24,7 +24,7 @@ public class LancamentoVendas {
     @Column(nullable = false)
     private BigDecimal valor;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "vendedor_id", nullable = false, unique = true)
+    @ManyToOne(fetch = FetchType.EAGER) // ⭐️ Altere para EAGER
+    @JoinColumn(name = "vendedor_id", nullable = false)
     private Vendedor vendedor;
 }

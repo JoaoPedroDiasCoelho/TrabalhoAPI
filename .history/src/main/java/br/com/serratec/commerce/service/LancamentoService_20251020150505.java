@@ -2,11 +2,11 @@ package br.com.serratec.commerce.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import br.com.serratec.commerce.dto.LancamentoVendasResponseDTO;
 import br.com.serratec.commerce.models.LancamentoVendas;
 import br.com.serratec.commerce.repository.ILancamentoRepository;
+import jakarta.transaction.Transactional;
 
 @Service
 public class LancamentoService {

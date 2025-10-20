@@ -25,6 +25,6 @@ public class LancamentoVendas {
     private BigDecimal valor;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "vendedor_id", nullable = false, unique = true)
+    @JoinColumn(name = "vendedor_id", nullable = false, unique = )
     private Vendedor vendedor;
 }
